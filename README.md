@@ -610,3 +610,198 @@ git commit -m "Fix critical issue"
 git checkout main
 git merge hotfix-urgent-issue
 git push origin main
+
+Set 9
+Jira Cloud Instance – Onboarding & Roles:
+
+Go to Admin > User Management.
+
+Click Invite Users, add email addresses.
+
+Assign project roles under Project Settings > People.
+
+Git Commit and Push:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Updated multiple files"
+git push origin main
+JQL Query – Bugs in Last 7 Days:
+
+ini
+Copy
+Edit
+labels = Bug AND created >= -7d
+Set 10
+GitHub Repo with License & Branch Rules:
+
+Create repo via GitHub UI.
+
+Add LICENSE during setup.
+
+Go to Settings > Branches > Add rule.
+
+Set protection for main.
+
+Jira Sprint Creation:
+
+Go to Backlog, click Create Sprint.
+
+Drag items into sprint.
+
+Start it by clicking Start Sprint.
+
+Git Branch Creation and Push:
+
+bash
+Copy
+Edit
+git checkout -b feature-branch
+git push origin feature-branch
+Set 11
+Git Install & Configure on Linux:
+
+bash
+Copy
+Edit
+sudo apt update
+sudo apt install git
+git config --global user.name "YourName"
+git config --global user.email "you@example.com"
+Jira Issue Creation – High Priority:
+
+Click Create.
+
+Set type = Bug, Priority = High.
+
+Assign to developer and click Create.
+
+Jira Dashboard Setup:
+
+Go to Dashboards > Create Dashboard.
+
+Add gadgets: Sprint Health, Pie Chart, etc.
+
+Configure each for your board/project.
+
+Set 12
+Git Init & Link to GitHub:
+
+bash
+Copy
+Edit
+git init
+git remote add origin https://github.com/user/repo.git
+git branch -M main
+git push -u origin main
+Git Pull & Merge Conflict Handling:
+
+bash
+Copy
+Edit
+git pull origin main
+# Fix conflicts manually
+git add .
+git commit -m "Resolved merge conflicts"
+Jira Filter – Open Assigned Issues:
+
+JQL:
+
+java
+Copy
+Edit
+status != Done AND assignee = currentUser()
+Save as filter and share under "Manage Filters."
+
+Set 13
+Jira Scrum Project Setup for Client:
+
+Create project → Select Scrum template.
+
+Go to Project Settings > People, add client with proper role (e.g., Viewer).
+
+Git Add, Commit Specific Files:
+
+bash
+Copy
+Edit
+git add file1.java file2.java
+git commit -m "Updated specific files"
+git push origin main
+Git Merge (No Fast-Forward):
+
+bash
+Copy
+Edit
+git checkout main
+git merge --no-ff feature-branch
+git push origin main
+Set 14
+GitHub External Collaboration:
+
+Go to Settings > Collaborators.
+
+Invite by GitHub username or email.
+
+Assign proper access (e.g., Write or Read).
+
+Jira Epic & Story Linking:
+
+Create an Epic.
+
+While creating a story, set Epic Link to that epic.
+
+Delete Git Branch Locally & Remotely:
+
+bash
+Copy
+Edit
+git branch -d feature-branch
+git push origin --delete feature-branch
+Set 15
+Git Update Email:
+
+bash
+Copy
+Edit
+git config --global user.email "newemail@example.com"
+Close Sprint & Move Incomplete Tasks:
+
+Go to Active Sprint, click Complete Sprint.
+
+Jira automatically prompts to move unfinished tasks to next sprint or backlog.
+
+JQL Query – Exclude Done Issues:
+
+ini
+Copy
+Edit
+assignee = currentUser() AND status != Done
+Set 16
+Jira Filter Creation:
+
+Use:
+
+csharp
+Copy
+Edit
+assignee in (membersOf("project-team")) AND status != Done
+Save & Share from Filters > Manage Filters.
+
+Jira Kanban Board Setup:
+
+Create a Kanban project.
+
+Go to Board Settings > Columns.
+
+Add/rename columns like To Do, In Progress, QA, Done.
+
+Jira Issue – High Priority:
+
+Click Create → Choose Issue Type (e.g., Bug).
+
+Set Priority = High.
+
+Assign developer and click Create.
